@@ -1,0 +1,15 @@
+Infix: (10+5)*2-8/4
+Expected result: 28
+
+Infix: A+B*C
+Postfix: A B C * +
+Prefix: + A * B C
+
+Postfix: 5 3 2 * +
+Expected result: 11
+
+Prefix: + 5 * 3 2
+Expected result: 11
+
+Balanced: {(a+b)*[c-d]}
+Unbalanced: ([)]
