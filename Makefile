@@ -26,4 +26,3 @@ test: test_runner$(EXE)
 clean:
 	$(RM) expr_eval$(EXE) test_runner$(EXE)
 
-.PHONY: all test clean
